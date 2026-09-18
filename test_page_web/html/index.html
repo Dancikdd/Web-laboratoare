@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Pagina mea despre plante</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Pagina mea despre plante</h1>
+    <p>Aici scriu despre plantele mele de apartament.</p>
+  </header>
+
+  <h2>Plantele mele</h2>
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Syringa%20vulgaris%20Lilak%20pospolity%202010-05-15%2001.jpg?width=400" alt="Liliac">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Red%20rose.jpg?width=400" alt="Trandafir">
+
+  <h2>Ce am învățat</h2>
+  <ul>
+    <li>Ud planta doar când solul e uscat</li>
+    <li>Rotesc ghiveciul din când în când</li>
+    <li>Șterg frunzele de praf</li>
+  </ul>
+
+  <p>
+    Mai multe informații găsești pe
+    <a href="https://www.rhs.org.uk/" target="_blank">site-ul RHS</a>.
+  </p>
+
+  <h2>Program de udare</h2>
+  <table border="1">
+    <tr>
+      <th>Plantă</th>
+      <th>Cât de des</th>
+    </tr>
+    <tr>
+      <td>Liliac</td>
+      <td>La 7 zile</td>
+    </tr>
+    <tr>
+      <td>Trandafir</td>
+      <td>La 4-5 zile</td>
+    </tr>
+  </table>
+
+  <h2>Adaugă o plantă nouă</h2>
+  <form id="formular">
+    <label>Titlu:</label>
+    <input type="text" id="titlu"><br><br>
+
+    <label>Descriere:</label><br>
+    <textarea id="descriere"></textarea><br><br>
+
+    <button type="submit">Adaugă</button>
+  </form>
+
+  <div id="lista"></div>
+
+  <script src="../javascript/script.js"></script>
+</body>
+</html>
